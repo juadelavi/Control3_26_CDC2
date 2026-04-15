@@ -40,7 +40,7 @@ public class Gerente {
 	
     private void mostrar() {
 
-    	System.out.println("Películas en el cine");
+    	System.out.println("Películas en el cine juadelavi");
 		System.out.println(cine.findAll());
     	
     }
