@@ -59,7 +59,7 @@ public class Cine implements GestionProductos<Pelicula> {
 	@Override
 	public void saveAll(Pelicula[] t) {
 	    if (t != null) {
-	        for (int i = 0; i < t.length-1; i++) {
+	        for (int i = 0; i < t.length; i++) {
 	            Pelicula p = t[i];
 	            if (p != null) {
 	                peliculas.add(p);
